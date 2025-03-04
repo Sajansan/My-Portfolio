@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SAJANSAN</title>
+  <link rel="icon" href="Images\boytwo.png">
+  <link rel="stylesheet" href="style.css" />
+  <!-- AOS-CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+
+</head>
+
+<body>
+  <header class="header">
+    <a href="#homeid" class="logo">Sajan.</a>
+    <nav class="navbar">
+      <a href="#homeid" class="active">Home</a>
+      <a href="#aboutid">About</a>
+      <a href="#projectid">Projects</a>
+      <!-- <a href="#">Portfolio</a> -->
+      <a href="#contactid">Contact</a>
+    </nav>
+  </header>
+
+  <section class="home" id="homeid">
+    <div class="home-container">
+      <div class="home-content">
+        <h1>Hi, I'm Sajansan</h1>
+        <h3>Software Developer</h3>
+        <p>
+          A highly motivated aspiring software developer with hands-on
+          experience in creating web applications and static websites. Currently
+          pursuing a Bachelor of Software Engineering degree. Passionate about
+          coding, problem-solving, and achieving entrepreneurial goals.
+        </p>
+        <div class="btn-box">
+          <a href="#contactid">Hire Me</a>
+          <a href="#contactid">Let's Talk</a>
+        </div>
+      </div>
+
+      <div class="home-sci">
+        <a href="#"><i class="bx bxl-facebook"></i></a>
+        <a href="#"><i class="bx bxl-twitter"></i></a>
+        <a href="#"><i class="bx bxl-linkedin"></i></a>
+      </div>
+
+      <span class="home-imgHover"></span>
+
+      <div class="home-image">
+        <img src="Images\boytwo.png" alt="Sajansan">
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- <div id="main">
+    <div data-aos="fade-up">Something up!</div>
+  </div> -->
+
+
+  <!-- AboutMe Section -->
+  <section id="aboutid" data-aos="fade-up-right">
+    <div class="about-content">
+      <h1 class="subhead">About Me</h1>
+      <p>Hi, I'm Sajansan, an aspiring Full Stack Developer and tech enthusiast from Sri Lanka. I have a strong
+        foundation
+        in web development and a passion for creating modern, user-friendly, and efficient websites.
+
+        I completed my A/Level at Kn/Muruganandha College and am currently pursuing a Bachelor of Software Engineering
+        (BSE) as an external degree at OUSL. Alongside my studies, I'm enhancing my skills by taking a Full Stack
+        Development course at DBIT Campus.
+      </p>
+
+
+      <div class="minihead">
+        <h2>What I Do</h2>
+        <p>
+        <ol>
+          <li>
+            <div class="list">Web Development:</div>Skilled in HTML, CSS, and JavaScript, I have already created
+            several projects,
+            including
+            a
+            calculator web app and static websites for insurance companies.
+          </li>
+          <li>
+            <div class="list">Freelancing Aspirations:</div>I'm preparing to launch my freelancing career to help
+            businesses build their
+            digital
+            presence.
+          </li>
+          <li>
+            <div class="list">Continuous Learning:</div>I am always learning new technologies to stay ahead in this
+            fast-paced field.
+          </li>
+        </ol>
+        </p>
+      </div>
+
+    </div>
+    <img src="Images\pngegg.png" alt="aboutimg">
+  </section>
+  <br>
+  <br><br>
+
+  <!-- Project Section -->
+  <section id="projectid" data-aos="fade-left">
+    <div class="project-content">
+      <h1 class="subhead">Projects</h1>
+      <p>Welcome to my projects section! Here, you’ll find a collection of web development projects that I have built
+        using HTML, CSS, and JavaScript. From functional web applications to sleek portfolio designs, these projects
+        showcase my skills and creativity. Feel free to explore and check out the code on GitHub!</p>
+
+      <section id="projects">
+        <h2>My Projects</h2>
+        <div class="project-container">
+          <div class="project-card">
+            <h3>Calculator Web App</h3>
+            <p>A simple calculator built with HTML, CSS, and JavaScript.</p>
+            <img src="Images\calculator-app.png" alt="Calculator Project">
+            <div>
+              <a href="https://github.com/Sajansan/Level_2/commit/f83deb4a0a5d5dc721cae3fd06fd1bb3008d9aef">Sourse Code</a>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <h3>Portfolio Website</h3>
+            <p>A Portfolio website for me using HTML, CSS and JavaScript.</p>
+            <img src="Images\PFImg.png" alt="LIC Website">
+            <div>
+              <a href="#">Sourse Code</a>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <h3>Insurance Website</h3>
+            <p>A static website for an insurance company using HTML and CSS.</p>
+            <img src="Images\InsuranceImg.png" alt="Insurance Website">
+            <div>
+              <a href="https://github.com/Sajansan/InsurancePageCode.git">Sourse Code</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+
+    </div>
+  </section>
+  <br>
+  <!-- ContactMe Section -->
+  <section id="contactid" data-aos="fade-right">
+    <div class="contact-content">
+      <h1 class="subhead">Contact Me</h1>
+      <p>Got a project idea or just want to connect? Feel free to reach out! Whether it’s about web development,
+        collaboration, or any queries, I’d love to hear from you. Let’s build something amazing together!</p>
+    </div>
+    <form>
+
+      <input type="text" placeholder="Your Name">
+      <input type="email" placeholder="Your Email">
+      <textarea placeholder="Your Message"></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+
+
+  <script src="script.js"></script>
+  <!-- AOS-JS -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init(
+      {
+        duration: 1000,
+        once: true  // Ensures the animation runs only once
+      }
+    );
+  </script>
+  <footer class="foot">
+    <p>© 2025-January Sajansan. All rights reserved.</p>
+  </footer>
+</body>
+
+</html>
